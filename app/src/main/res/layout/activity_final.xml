@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/design_default_color_on_secondary"
+    android:backgroundTint="@color/black"
+    android:orientation="vertical"
+    tools:context=".Final">
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvMobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Mobile"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Location"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvBloodType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Type Of Blood"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/tvDonationDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Donation Availabel Day"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/tvHealth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Health Issue"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/bCall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="call" />
+</LinearLayout>
